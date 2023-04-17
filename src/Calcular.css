@@ -1,0 +1,22 @@
+.calcular {
+    background-color: #61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+}
+
+.calculate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

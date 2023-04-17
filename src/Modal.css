@@ -1,0 +1,56 @@
+.modal {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 221);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    top: 40%;
+    left: 40%;
+    right: 40%;
+    bottom: 40%; */
+}
+/* 
+.inactive {
+    display: none;
+} */
+
+.modal-background {
+    background: rgba(32,35,41,.8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.calcular {
+    background-color: #61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+}
+
+.calculate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

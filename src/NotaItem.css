@@ -1,0 +1,40 @@
+.nota {
+    display: flex;
+    width: 400px;
+}
+
+.nota input:nth-child(1) {
+    width: 100px;
+    height: 40px;
+    margin: 5px 20px 5px 0px;
+    text-align: center;
+}
+
+.nota input:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px 5px 0px;
+    text-align: center;
+}
+
+.nota input:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px 5px 0px;
+    text-align: center;
+}
+
+.nota button {
+    background: none;
+    border: none;
+}
+
+.nota button img{
+    width: 30px;
+    height: 30px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
