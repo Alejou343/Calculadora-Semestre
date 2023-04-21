@@ -1,5 +1,5 @@
 import React from 'react';
-import './NotaSection.css'
+import '../Styles/NotaSection.css'
 
 const NotasSection = (props) => {
 

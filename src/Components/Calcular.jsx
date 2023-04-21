@@ -1,5 +1,5 @@
 import React from 'react';
-import './Calcular.css'
+import '../Styles/Calcular.css'
 
 const Calcular = (props) => {
 

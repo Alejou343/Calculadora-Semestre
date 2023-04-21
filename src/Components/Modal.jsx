@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import './Modal.css';
+import '../Styles/Modal.css';
 
 const Modal = (props) => {
 
