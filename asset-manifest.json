@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Calculadora-Semestre/static/css/main.b82120a5.css",
+    "main.js": "/Calculadora-Semestre/static/js/main.a6a850a0.js",
+    "index.html": "/Calculadora-Semestre/index.html",
+    "main.b82120a5.css.map": "/Calculadora-Semestre/static/css/main.b82120a5.css.map",
+    "main.a6a850a0.js.map": "/Calculadora-Semestre/static/js/main.a6a850a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82120a5.css",
+    "static/js/main.a6a850a0.js"
+  ]
+}
