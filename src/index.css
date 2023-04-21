@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,10 +19,3 @@ b {
   color: dodgerblue;
   font-size: 20px;
 }
-
-/* input:focus {
-  border-color: dodgerblue;
-  background-color: yellow;
-  color: blue;
-  font-size: 18px;
-} */
