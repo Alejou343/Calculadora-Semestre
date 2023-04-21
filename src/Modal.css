@@ -8,16 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: absolute;
-    top: 40%;
-    left: 40%;
-    right: 40%;
-    bottom: 40%; */
+    border: 2px solid dodgerblue;
 }
-/* 
-.inactive {
-    display: none;
-} */
+
 
 .modal-background {
     background: rgba(32,35,41,.8);
@@ -53,4 +46,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.modal-alert {
+    font-size: 15px;
 }

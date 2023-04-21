@@ -3,13 +3,16 @@ import './Calcular.css'
 
 const Calcular = (props) => {
 
-    const onClickCalcular = () => {
-        props.setOpenModal(!props.openModal)
-    }
+    // const onClickCalcular = (event) => {
+    //     event.preventDefault()
+    //     setTimeout(() => {
+    //         props.setOpenModal(!props.openModal)
+    //     }, 3000);
+    // }
 
     return (
         <div className="calculate-button">
-            <button className="calcular" onClick={onClickCalcular}>Calcular</button>
+            <button className="calcular" type='submit'>Calcular</button>
         </div>
     );
 }

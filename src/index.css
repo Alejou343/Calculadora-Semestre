@@ -19,5 +19,12 @@ input {
 
 b {
   color: dodgerblue;
-  font-size: 15px;
+  font-size: 20px;
 }
+
+/* input:focus {
+  border-color: dodgerblue;
+  background-color: yellow;
+  color: blue;
+  font-size: 18px;
+} */
