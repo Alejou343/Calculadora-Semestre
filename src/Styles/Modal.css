@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid dodgerblue;
+    animation: modal-animation 0.3s ease;
 }
 
 
@@ -24,6 +25,11 @@
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.modal-background.show {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .calcular {
@@ -50,4 +56,12 @@
 
 .modal-alert {
     font-size: 15px;
+}
+
+@keyframes modal-animation {
+    from {
+        transform: scale(0);
+    } to {
+        transform: scale(1);
+    }
 }

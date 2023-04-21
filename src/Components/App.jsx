@@ -16,6 +16,7 @@ function App() {
   const [openModal, setOpenModal] = React.useState(false);
   const [formValues, setFormValues] = React.useState({});
   const [results, setResults] = React.useState({})
+  const [text, setText] = React.useState('Calcular')
 
   const newNota = () => {
       setNotas([...notas, {Id: notas.length + 1, Nombre: 'Nombre', Nota: 'Nota', Porcentaje: '%'}])
@@ -56,9 +57,11 @@ const handleInputChange = (event) => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
+    setText('...')
     setTimeout(() => {
       setOpenModal(!openModal)
       calcularNotaFinal(formValues)
+      setText('Calcular')
     }, 2000);
   }
 
@@ -92,6 +95,8 @@ const handleInputChange = (event) => {
           <Calcular 
           openModal = {openModal}
           setOpenModal = {setOpenModal}
+          text = {text}
+          setText = {setText}
           />
         </NotasSection>
         </form>

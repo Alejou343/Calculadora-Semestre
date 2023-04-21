@@ -12,7 +12,14 @@ const Calcular = (props) => {
 
     return (
         <div className="calculate-button">
-            <button className="calcular" type='submit'>Calcular</button>
+            <button className="calcular" type='submit'>
+                {props.text === 'Calcular' ? 'Calcular' : 
+                <div className='loader'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>}
+                </button>
         </div>
     );
 }
